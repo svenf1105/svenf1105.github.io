@@ -1,176 +1,189 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sven's D&D Campaign</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/starter-template/">
-
-    
-
-    
-
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Sven's D&D Campaign</title>
+ 
+   <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/starter-template/">
+ 
+  
+ 
+  
+ 
 <link href="css/bootstrap.min.css" rel="stylesheet">
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-
-      .b-example-divider {
-        height: 3rem;
-        background-color: rgba(0, 0, 0, .1);
-        border: solid rgba(0, 0, 0, .15);
-        border-width: 1px 0;
-        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
-      }
-
-      .b-example-vr {
-        flex-shrink: 0;
-        width: 1.5rem;
-        height: 100vh;
-      }
-
-      .bi {
-        vertical-align: -.125em;
-        fill: currentColor;
-      }
-
-      .nav-scroller {
-        position: relative;
-        z-index: 2;
-        height: 2.75rem;
-        overflow-y: hidden;
-      }
-
-      .nav-scroller .nav {
-        display: flex;
-        flex-wrap: nowrap;
-        padding-bottom: 1rem;
-        margin-top: -1px;
-        overflow-x: auto;
-        text-align: center;
-        white-space: nowrap;
-        -webkit-overflow-scrolling: touch;
-      }
-    </style>
-
-    
-    <!-- Custom styles for this template -->
-    <link href="starter-template.css" rel="stylesheet">
-  </head>
-  <body>
-    
+ 
+   <style>
+     .bd-placeholder-img {
+       font-size: 1.125rem;
+       text-anchor: middle;
+       -webkit-user-select: none;
+       -moz-user-select: none;
+       user-select: none;
+     }
+ 
+     @media (min-width: 768px) {
+       .bd-placeholder-img-lg {
+         font-size: 3.5rem;
+       }
+     }
+ 
+     .b-example-divider {
+       height: 3rem;
+       background-color: rgba(0, 0, 0, .1);
+       border: solid rgba(0, 0, 0, .15);
+       border-width: 1px 0;
+       box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+     }
+ 
+     .b-example-vr {
+       flex-shrink: 0;
+       width: 1.5rem;
+       height: 100vh;
+     }
+ 
+     .bi {
+       vertical-align: -.125em;
+       fill: currentColor;
+     }
+ 
+     .nav-scroller {
+       position: relative;
+       z-index: 2;
+       height: 2.75rem;
+       overflow-y: hidden;
+     }
+ 
+     .nav-scroller .nav {
+       display: flex;
+       flex-wrap: nowrap;
+       padding-bottom: 1rem;
+       margin-top: -1px;
+       overflow-x: auto;
+       text-align: center;
+       white-space: nowrap;
+       -webkit-overflow-scrolling: touch;
+     }
+   </style>
+ 
+  
+   <!-- Custom styles for this template -->
+   <link href="starter-template.css" rel="stylesheet">
+ </head>
+ <body>
+  
 <div class="col-lg-8 mx-auto p-4 py-md-5">
-  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
-    <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
-      <img src="icon.png" width="40" height="40" class="me-2">
-      <span class="fs-4">Sven's D&D Campaign</span>
-    </a>
-  </header>
-
-  <main>
-    <img class="img-fluid" src="img.jpg">
-    
-
-    <hr class="col-3 col-md-2 mb-5">
-
-    <div class="row g-5">
-      <div class="col-md-6">
-        <h2>Rules & Infos</h2>
-        <p>Alles Wichtige. Bitte gruendlich lesen.</p>
-        <ol>
-          <dt>General</dt>
-          <li>Wir spielen jeden zweiten Mittwoch. (grade Kalenderwochen)</li>
-          <ul>
-            <li>18:15 Treffen/Essen/Aufbau</li>
-            <li>19:00 Session Start</li>
-            <li>23:00 Session Ende</li>
-            <li>23:15 Session Hartes-Ende</li>
-          </ul>
-          <li>Wir haben eine Gruppenkasse fuer Strafen. Das Geld wird fuer Umkosten genutzt (zb. Resin zum 3D Drucken).</li>
-          <li>Mindestens 24h vorher absagen. Strafe: 10€</li>
-          <li>Puenklich zur Session erscheinen (19:00) oder mindestens 3h vorher bescheid geben.</li>
-          <ul>
-            <li>10-30min Verspaetung: 5€ Strafe</li>
-            <li>>30min Verspaetung: 10€ Strafe</li>
-          </ul>
-          <li>Ueber den Kalendereintrag <i>und</i> Whatsapp absagen.</li>
-          <li>Bitte gebt offen Feedback.</li>
-        </ol>
-
-        <ol>
-          <dt>Ingame</dt>
-          <li>Saemtlicher non-magical Loot geht in den Gruppen-Loot, von dem jeder Character weiss und der der ganzen Gruppe gehoert.</li>
-          <li>Magic Items werden direkt vom DM an Spieler oder den Gruppen-Loot verteilt.</li>
-          <ul>
-            <li>Dies garantiert dass jeder seinen Fair-Share an Loot bekommt. Tauschen/Handeln ist euch ueberlassen.</li>
-          </ul>
-          <li>Healing Potions koennen als Bonus Action benutzt werden.</li>
-          <li>Flanking gibt +2 auf den Attack Roll statt advantage.</li>
-          <li>Ihr muesst proficiant in einem Skill sein um jemand anderem dabei helfen zu koennen.</li>
-          <li>Ihr duerft idR Waffen ziehen, wegstecken und switchen ohne eine Action zu benuzten, ausser der DM sagt es geht nicht.</li>
-          <li>Wiederbelebungen koennen fehlschlagen und sind schwerer. <a href="https://imgur.com/a/QZa1sd7">Link</a></li>
-          <li>Unaufgefordertes Wuerfeln ist ungueltig.</li>
-          <li>Andere Spieler koennen nicht durch wuerfeln beeinflusst werden.</li>
-          <li>Kein Spieler vs Spieler.</li>
-        </ol>
-
-        <ol>
-          <dt>Character Erstellung</dt>
-          <li>Kein Evil Alignment.</li>
-          <li>Wir starten auf Level 3.</li>
-          <li>Point buy fuer Ability Scores.</li>
-          <li>Milestones fuer Experience.</li>
-          <li>Alle offiziellen Sources sind erlaubt.</li>
-          <li>Ability Score Improvements der Rasse koennen angepasst werden. <a href="https://www.dndbeyond.com/sources/tcoe/character-options#Proficiencies">Link</a></li>
-          <li>1HP vom Level-Up darf neu gewuerfelt werden.</li>
-          <li>'Observant' gibt den +5 Bonus nicht.</li>
-        </ol>
-      </div>
-
-      <div class="col-md-6">
-        <h2>Links</h2>
-        <p>Alle wichtigen und weniger wichtigen Links.</p>
-        <ul class="icon-list ps-0">
-          <li class="d-flex align-items-start mb-1"><a href="https://ddb.ac/campaigns/join/33155101701101662">Campaign Invite</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.dndbeyond.com/classes">D&D Klassen</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.dndbeyond.com/races">D&D Rassen</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=LALHl4FJUx0&list=PLugOo_mrTyTckVepQNpCoe9RFre0VhMxN">(youtube) How to play class X</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=PoyVuHRB3Ik&list=PLugOo_mrTyTd4NxoDccTHJgosKY1_8CNT">(youtube) What should i play?</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=4XYqrbhLjIM">(youtube) How to make a good character</a></li>
-          <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/c/DungeonDudes">(youtube) DungeonDudes Channel</a></li>
-        </ul>
-
-        <hr class="col-3 col-md-3 mb-6">
-
-        <h2>Gruppenkasse</h2>
-        <p>Ein- und Ausgaben der Gruppenkasse.</p>
-        <ol>
-          <li><i>Bis jetzt noch nichts.</i></li>
-        </ol>
-      </div>
-    </div>
-  </main>
-  <footer class="pt-5 my-5 text-muted border-top">
-    Last updated at 28/09/2022
-  </footer>
+ <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+   <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+     <img src="icon.png" width="40" height="40" class="me-2">
+     <span class="fs-4">Sven's D&D Campaign</span>
+   </a>
+ </header>
+ 
+ <main>
+   <img class="img-fluid" src="img.jpg">
+  
+ 
+   <hr class="col-3 col-md-2 mb-5">
+ 
+   <div class="row g-5">
+     <div class="col-md-6">
+       <h2>Rules & Infos</h2>
+       <p>Alles Wichtige. Bitte gründlich lesen.</p>
+       <ol>
+         <dt>General</dt>
+         <li>Wir spielen jeden zweiten Mittwoch. (gerade Kalenderwochen)</li>
+         <ul>
+           <li>18:15 Treffen/Essen/Aufbau</li>
+           <li>19:00 Session Start</li>
+           <li>23:00 Session Ende</li>
+           <li>23:15 Session Hartes-Ende</li>
+         </ul>
+         <li>Wir haben eine Gruppenkasse fuer Strafen. Das Geld wird für Unkosten genutzt (zb. Resin zum 3D Drucken).</li>
+         <li>Mindestens 24h vorher absagen. Strafe: 10€</li>
+         <li>Pünktlich zur Session erscheinen (19:00) oder mindestens 3h vorher Bescheid geben.</li>
+         <ul>
+           <li>10-30min Verspaetung: 5€ Strafe</li>
+           <li>>30min Verspaetung: 10€ Strafe</li>
+         </ul>
+         <li>Ueber den Kalendereintrag <i>und</i> Whatsapp absagen.</li>
+         <li>Bitte gebt offen Feedback.</li>
+       </ol>
+ 
+       <ol>
+         <dt>Spieler Etikette</dt>
+         <li>Aufmerksam sein, auch wenn andere dran sind. Nicht am Handy spielen, nicht mit anderen unterhalten.</li>
+         <li>Vorbereitet sein: Charakter ist ready und ihr kennt eure Optionen. Eure Notizen sind vorbereitet und ihr wisst was alles passiert ist.</li>
+         <li>Rampenlicht teilen. Gebt jedem die Chance coole Momente zu haben und Entscheidungen zu treffen.</li>
+         <li>Zeit und Vereinbarungen respektieren. Seit pünktlich und fallt nur in Notfällen aus. Sagt bescheid wenn ihr nicht könnt oder verspätet seit.</li>
+         <li>Seid nett, ingame und out of game. Geht nicht immer gegen die Gruppe oder macht den Spielfluss zu oft kaputt mit 'Aber mein Character is so'.</li>
+         <li>Vermeidet Metagaming. Ihr als Spieler wisst mehr als euer Charakter. Wir wollen eine Story gemeinsam erleben, nicht gewinnen.</li>
+         <li>Echte Probleme werden zwischen Spielern geklärt. Fiktive Probleme zwischen Charakteren.</li>
+       </ol>
+ 
+       <ol>
+         <dt>Ingame</dt>
+         <li>Sämtlicher non-magical Loot geht in den Gruppen-Loot, von dem jeder Charakter weiss und der der ganzen Gruppe gehört.</li>
+         <li>Magic Items werden direkt vom DM an Spieler oder den Gruppen-Loot verteilt.</li>
+         <ul>
+           <li>Dies garantiert, dass jeder seinen Fair-Share an Loot bekommt. Tauschen/Handeln ist euch überlassen.</li>
+         </ul>
+         <li>Healing Potions können als Bonus Aktion benutzt werden.</li>
+         <li>Flanking gibt +2 auf den Attack Roll statt advantage.</li>
+         <li>Ihr müsst proficient in einem Skill sein, um jemand anderem dabei helfen zu können.</li>
+         <li>Ihr dürft idR Waffen ziehen, wegstecken und switchen ohne eine Action zu benutzen, außer der DM sagt, es geht nicht.</li>
+         <li>Wiederbelebungen können fehlschlagen und sind schwerer. <a href="https://imgur.com/a/QZa1sd7">Link</a></li>
+         <li>Unaufgefordertes Würfeln ist ungueltig.</li>
+         <li>Andere Spieler können nicht durch würfeln beeinflusst werden.</li>
+         <li>Kein Spieler vs Spieler.</li>
+       </ol>
+ 
+       <ol>
+         <dt>Charaktererstellung</dt>
+         <li>Kein Evil Alignment.</li>
+         <li>Wir starten auf Level 3.</li>
+         <li>Point buy fuer Ability Scores.</li>
+         <li>Milestones fuer Experience.</li>
+         <li>Alle offiziellen Sources sind erlaubt.</li>
+         <li>Ability Score Improvements der Rasse können angepasst werden. <a href="https://www.dndbeyond.com/sources/tcoe/character-options#Proficiencies">Link</a></li>
+         <li>1HP vom Level-Up darf neu gewürfelt werden.</li>
+         <li>'Observant' gibt den +5 Bonus nicht.</li>
+       </ol>
+     </div>
+ 
+     <div class="col-md-6">
+       <h2>Links</h2>
+       <p>Alle wichtigen und weniger wichtigen Links.</p>
+       <ul class="icon-list ps-0">
+         <li class="d-flex align-items-start mb-1"><a href="https://ddb.ac/campaigns/join/33155101701101662">Campaign Invite</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.dndbeyond.com/classes">D&D Klassen</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.dndbeyond.com/races">D&D Rassen</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=LALHl4FJUx0&list=PLugOo_mrTyTckVepQNpCoe9RFre0VhMxN">(youtube) How to play class X</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=PoyVuHRB3Ik&list=PLugOo_mrTyTd4NxoDccTHJgosKY1_8CNT">(youtube) What should i play?</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/watch?v=4XYqrbhLjIM">(youtube) How to make a good character</a></li>
+         <li class="d-flex align-items-start mb-1"><a href="https://www.youtube.com/c/DungeonDudes">(youtube) DungeonDudes Channel</a></li>
+       </ul>
+ 
+       <hr class="col-3 col-md-3 mb-6">
+ 
+       <h2>Gruppenkasse</h2>
+       <p>Ein- und Ausgaben der Gruppenkasse.</p>
+       <ol>
+         <li><i>Bis jetzt noch nichts.</i></li>
+       </ol>
+     </div>
+   </div>
+ </main>
+ <footer class="pt-5 my-5 text-muted border-top">
+   Last updated at 28/09/2022
+ </footer>
 </div>
-
-
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
-
-      
-  </body>
+ 
+ 
+   <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+ 
+    
+ </body>
 </html>
+ 
+
